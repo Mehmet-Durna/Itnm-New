@@ -3,13 +3,13 @@ const openBtn = document.getElementById("open-btn");
 const closeBtn = document.getElementById("close-btn");
 
 function openNav() {
-  nav.style.height = "100%";
+  nav.style.opacity = "1";
   openBtn.style.display = "none";
   closeBtn.style.display = "block";
 }
 
 function closeNav() {
-  nav.style.height = "0%";
+  nav.style.opacity = "0";
   openBtn.style.display = "block";
   closeBtn.style.display = "none";
 }

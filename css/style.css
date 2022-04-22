@@ -3,7 +3,7 @@ body {
   }
   
   .overlay {
-    height:0 ;
+    height:100% ;
     width: 100%;
     position: fixed;
     z-index: 1;
@@ -13,6 +13,7 @@ body {
     background-color: rgba(0,0,0, 0.9);
     overflow: hidden;
     transition: 0.5s;
+    opacity: 0;
   }
   
   .overlay-content {
