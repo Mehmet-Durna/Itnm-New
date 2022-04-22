@@ -46,10 +46,11 @@ body {
   #open-btn{
     font-size:60px;
     cursor:pointer;
-    position: absolute;
+    position: fixed;
     z-index: 100;
     top: 50%;
     left: 90%;
+
   }
 
 
