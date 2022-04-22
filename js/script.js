@@ -1,8 +1,15 @@
+const nav = document.getElementById("myNav");
+const openBtn = document.getElementById("open-btn");
+const closeBtn = document.getElementById("close-btn");
 
 function openNav() {
-  document.getElementById("myNav").style.height = "100%";
+  nav.style.height = "100%";
+  openBtn.style.display = "none";
+  closeBtn.style.display = "block";
 }
 
 function closeNav() {
-  document.getElementById("myNav").style.height = "0%";
+  nav.style.height = "0%";
+  openBtn.style.display = "block";
+  closeBtn.style.display = "none";
 }
