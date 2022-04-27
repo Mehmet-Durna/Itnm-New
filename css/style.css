@@ -13,7 +13,7 @@ body {
     background-color: rgba(0,0,0, 0.9);
     overflow: hidden;
     transition: 0.5s;
-    opacity: 0;
+    display: none;
   }
   
   .overlay-content {
@@ -37,33 +37,9 @@ body {
     color: #f1f1f1;
   }
   
-  
-
-  #open-btn{
-    font-size:60px;
-    cursor:pointer;
-    position: fixed;
-    z-index: 100;
-    top: 50%;
-    right: 0;
-  }
-
-  #close-btn{
-    font-size:70px;
-    cursor:pointer;
-    position: fixed;
-    z-index: 100;
-    top: 50%;
-    right: 0;
-    color: #f1f1f1;
-    display: none;
-  }
-
-
   .divi{
       margin: 0;
       padding: 0;
       height: 100vh;
      
   }
-  
