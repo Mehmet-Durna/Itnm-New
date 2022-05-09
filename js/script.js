@@ -1,3 +1,5 @@
+document.getElementById("year").innerHTML = (new Date().getFullYear());
+
 $('.navTrigger').click(function(){
   $(this).toggleClass('active');
   
@@ -10,3 +12,4 @@ $('.overlay-content').click(function(){
   $('.myNav').css("display", "none");
   $('.navTrigger').toggleClass('active');
 });
+
